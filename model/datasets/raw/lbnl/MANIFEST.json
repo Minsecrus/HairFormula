@@ -1,0 +1,1034 @@
+{
+  "source": "LBNL Pigment Database",
+  "base": "https://coolcolors.lbl.gov/LBNL-Pigment-Database",
+  "retrieved": "2026-08-09",
+  "note": "Spectral data zips are WinZip AES-128 encrypted (key restricted to Cool Colors members per spectral-datafile-guide.pdf). They are archived verbatim; usable spectra are digitized from the public chart PDFs by the `digitize` stage of scripts/fetch-lbnl.mjs.",
+  "files": [
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/database.html",
+      "rel": "pages/database.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 22201,
+      "sha256": "d2189bc6d0cc12e60a7282c975be4fee6ca7524047085a70fb69aca45810ab45",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/R07.html",
+      "rel": "pages/paints/R07.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 4591,
+      "sha256": "b294dc0134c698383a95e9d2e90cd96180d6ff71c3c330b742197b004b29e99b",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/R08.html",
+      "rel": "pages/paints/R08.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 2801,
+      "sha256": "7f9c8b4d6b17924ae95eb9d3261e1416741c785b5668ebc3cd08f79a8ed6660e",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/U14.html",
+      "rel": "pages/paints/U14.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 12959,
+      "sha256": "1b6dddd40d24592f926cafe5c876cbe54ad76d0731ef5dbb6dc410db5f608a6d",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/U12.html",
+      "rel": "pages/paints/U12.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 18479,
+      "sha256": "5857b3b69449a8ebcdfd6ab4e351dc450a3b1a5e8faa30605933539433248d06",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/W03.html",
+      "rel": "pages/paints/W03.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 2882,
+      "sha256": "6ad60148b29ceb84b02c75e9efb33c92fcf2b4b90b8b82dd9e413b0de92de2a1",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/R09.html",
+      "rel": "pages/paints/R09.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 15733,
+      "sha256": "c17e7e844517fb2fba24a86047fb3377e7c83d1bfa48fcea087c70b53951422c",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/U11.html",
+      "rel": "pages/paints/U11.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 13043,
+      "sha256": "9ce3c9d397a0e2022d675b82b81291d64e1b582e4a857249b7061c94b3da5042",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/R06.html",
+      "rel": "pages/paints/R06.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 4617,
+      "sha256": "af44ed68aff507bfadd5790b7791993517125fd3f13748039f873db2022ce9e1",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/U13.html",
+      "rel": "pages/paints/U13.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 2809,
+      "sha256": "ab5a23ca799d3bf0b4ce2d0f803394fa3b3bac321c4a4ae475f4e49dc68813f4",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/W04.html",
+      "rel": "pages/paints/W04.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 2885,
+      "sha256": "14f0130a1c80fe808ea37ed17a5acdc7e5c98d37c3a9d92a7ed0d4e268fb80c6",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/B13.html",
+      "rel": "pages/paints/B13.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 15681,
+      "sha256": "3fad30ad40e9f6446470215d8f525ccdba027b91fa063ce4c34ff0fca8007a0d",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/B16.html",
+      "rel": "pages/paints/B16.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 18495,
+      "sha256": "1cab6ba6686654788c3d637a70d4d778b240af0856c834088c4c46c047ab99df",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/Y01.html",
+      "rel": "pages/paints/Y01.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 18414,
+      "sha256": "4686b34f054dd256fa1384b1e64b0bc9ffa514ee9d2f44a6ac1fbe270e83c034",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/U03.html",
+      "rel": "pages/paints/U03.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 15858,
+      "sha256": "df349aba0a14b2f4db4d04b2488aaec6b0b0d0a0b8b1180b4ff12ad5c2829938",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/R03.html",
+      "rel": "pages/paints/R03.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 26758,
+      "sha256": "c15e1baf207f29734337a3249e1c4d043f800515eab5669637966275f512bffb",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/G03.html",
+      "rel": "pages/paints/G03.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 24102,
+      "sha256": "a807f3b3eac6d7c15eb2a3e1b513721885b53d7366dbe03c774eba43b36c1fa7",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/Y13.html",
+      "rel": "pages/paints/Y13.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 10205,
+      "sha256": "2055f28f9078b62d258de968f4849d4ac3a08e1d116636f784b8548e1fc23876",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/paints/P05.html",
+      "rel": "pages/paints/P05.html",
+      "required": true,
+      "status": "cached",
+      "bytes": 23978,
+      "sha256": "ae0bea3c47252bc586e33a639d28271c6608353ad6c8504ef79381036ee1cebb",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/misc/spectral-datafile-guide.pdf",
+      "rel": "misc/spectral-datafile-guide.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 98239,
+      "sha256": "d8a27bc4ea301ca08b6631a8bd792cc9f65f3bcb38147a464c119326fc675bf3",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R07-masstone-spectral-data.zip",
+      "rel": "zips/R07-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 19207,
+      "sha256": "e167e05ecd1bdd6fb3ef5c714dcef216ae91506a16eba6be078ec66654c69b34",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R07-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/R07-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18081,
+      "sha256": "eb64e5b68317dfabcdbca03c4c9996f1cd8e2fb9f1c3ffdfafbe1592a17edddf",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R07-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/R07-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18172,
+      "sha256": "39dfa0a4826a4d2515ec1d57e66c63dc8ad7373387d58010808e0f48e98832e4",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R08-masstone-spectral-data.zip",
+      "rel": "zips/R08-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 19826,
+      "sha256": "28f55b5c64d1ef946a1e3b1a4e0dd6c965009ef59f41f1cb4f630037506d1b34",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U14-masstone-spectral-data.zip",
+      "rel": "zips/U14-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 16655,
+      "sha256": "78313d6bd2e98bfdf56211854add5fac9b5a680449696c7c0d107ffeaeb1a7f3",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U14-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/U14-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17858,
+      "sha256": "8584f779758aca68ec36af75f7a6693f403fa87af3cb36a357276656efa703f0",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U14-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/U14-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18109,
+      "sha256": "c2dece76bba8d3227d4412bfa1da42d45a50221bb9c46a5044c04a16a6db5a5a",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U12-masstone-spectral-data.zip",
+      "rel": "zips/U12-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 19486,
+      "sha256": "6b4d08a7bd5fd79e08c73ab6ea6732768c888d31ad2dcb7819bc83adf2103c3c",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U12-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/U12-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18167,
+      "sha256": "49220e5776f5e1ac8836fabf232c6c52dd6e4399684b5212568ad343853bc586",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U12-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/U12-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18460,
+      "sha256": "15848b85ac7f791ff822d95e84ba6585d9c8017456d8ecf7fb58ee2505ec7bd2",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/W03-masstone-spectral-data.zip",
+      "rel": "zips/W03-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17953,
+      "sha256": "5595839ae06e4e67a0f7858211d9a15191052bd952d4a0e1a1a28a7ebc139a95",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R09-masstone-spectral-data.zip",
+      "rel": "zips/R09-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 19798,
+      "sha256": "ac1a8ccffc2d69efa507fdd2a5a52462e5f890e20f783ddebeb32524e4f3f0bd",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R09-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/R09-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17899,
+      "sha256": "f4d30b31e495e71a972d4a187ab98ef373d92498232407cdf57e648de66168f5",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R09-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/R09-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17979,
+      "sha256": "076ffed7c589430a9f71a99ea34b76e1b0407a0d2d8659a409687ba319be2010",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U11-masstone-spectral-data.zip",
+      "rel": "zips/U11-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18863,
+      "sha256": "892d0ed1998d5e5cab36d4b259292fd9466633b9566b6197a69498a3f1eaffaa",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U11-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/U11-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18291,
+      "sha256": "36bbe20047253815d2328bc032e143377c4c8aaff50f59385b0daea7b40c5462",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U11-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/U11-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18223,
+      "sha256": "1b693f6070f0fca8853f6db3033fa55122e416f59003a654cd0248397fb750c6",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R06-masstone-spectral-data.zip",
+      "rel": "zips/R06-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17992,
+      "sha256": "8a01f1382d877f0cb0806479f86f2776736d733ae26c727e283243c812ea35ec",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R06-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/R06-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18043,
+      "sha256": "70ed6be4204753420f355531957b222f420fd9982b06e3673203aa3c34d21157",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R06-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/R06-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18245,
+      "sha256": "dd33d0a9bde11f3103b8f3fbc103e22d41dfc164e04f7990621b3516e67e33a3",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U13-masstone-spectral-data.zip",
+      "rel": "zips/U13-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17889,
+      "sha256": "e076dc4676d5d3d5dc6b24fae6516eff133f55ecfb3ed238fb6f515cf62ebd71",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/W04-masstone-spectral-data.zip",
+      "rel": "zips/W04-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 19107,
+      "sha256": "da5e02e427ef311b2586304a0c3a186f7b254398435af498ed58666346b5a7fc",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/B13-masstone-spectral-data.zip",
+      "rel": "zips/B13-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18675,
+      "sha256": "16203bc202009809a0b2170f020e67ff54bc6c3d78bf035a2e1226712254edea",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/B13-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/B13-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18092,
+      "sha256": "9fc22d479e574a74b61a64946fa238e8e0178766ff69480a184c6a2c07681a82",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/B13-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/B13-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18159,
+      "sha256": "a02643bc7e3e8dccda931f86fc9fcd943c54922f3859b45e54201a8504377d75",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/B16-masstone-spectral-data.zip",
+      "rel": "zips/B16-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17310,
+      "sha256": "1579137d74cefe4c818ce5a4d8e3ac7faec0ea9fdefe8738d3cc7fa14d126c40",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/B16-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/B16-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18369,
+      "sha256": "b92bd294bc22de5d592c21cc2ed660897de6fe5ccb45fd0e8e7b33765205ab30",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/B16-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/B16-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18414,
+      "sha256": "3910fe3ce3990becbe2938d7da530812f14b8a33f42573c32951ba0ecd27b6a6",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/Y01-masstone-spectral-data.zip",
+      "rel": "zips/Y01-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18832,
+      "sha256": "c51430c6a39f0a001d3cd1e7c0b9bd0aea7d43b048cb3962f30562c2ad55e754",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/Y01-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/Y01-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18017,
+      "sha256": "67e8cafa53b77a19749ccc642b2bab6698934912525f26684213c8b72811a10d",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/Y01-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/Y01-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18160,
+      "sha256": "686c4cf8561900485a236c257ff951476a9a1e1f59f57cd0cf8e5cae0557bc57",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U03-masstone-spectral-data.zip",
+      "rel": "zips/U03-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17968,
+      "sha256": "ed955aa9a8af69cae955329fc25cf74a7eba34285a25d132f175eefdd9844e8c",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U03-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/U03-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18369,
+      "sha256": "fc2bf636b2840d96de97016bc5752b898bf6b4737b1b4da36f7b131a91e88aab",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U03-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/U03-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18460,
+      "sha256": "ac6debd3450d0080a4a60d48027ea42d491e76ea0d3ce2a71aa3d88899046333",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R03-masstone-spectral-data.zip",
+      "rel": "zips/R03-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 19059,
+      "sha256": "33dc05d6b2af7e0533ff4f9ee9d760694888d62341b43b80f5d1ac1cf5d00b94",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R03-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/R03-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18201,
+      "sha256": "eeb7669683c3617829e3ffa63c3c6d2d4f9f4ecbe6dc3bdcfce8c544dd4acc62",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R03-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/R03-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18162,
+      "sha256": "402d6436ea5f5563582329c3060bcd44d8b1d70f996da2faeb3baf4903484c50",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/G03-masstone-spectral-data.zip",
+      "rel": "zips/G03-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 16635,
+      "sha256": "bbff0dfa09277c03188016ced4f5479b94d82e4777298d552e24b7da1536ac0d",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/G03-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/G03-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18139,
+      "sha256": "cdd28edf0d9e981b059bc7362522e25b3208116182d3b08f237fe719b5a7de5b",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/G03-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/G03-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18151,
+      "sha256": "7b2b7f88bc7ad0f41c629c98068cca33aa86950301224743747482718b729624",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/Y13-masstone-spectral-data.zip",
+      "rel": "zips/Y13-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18424,
+      "sha256": "f6822c7123bc58195b1e3bf3602df0aa42abf1b110cdb781c494a7ba6f2236f5",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/Y13-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/Y13-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18071,
+      "sha256": "7422ba683cb79393e257635ab0bdd00aff539128ecfd6ae4b2370bd612ac74ec",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/Y13-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/Y13-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17739,
+      "sha256": "45dd3f185720bfb5c02b99aa94c3c1c6e9bdc43ea4129974998336bbbaa9a0b4",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/P05-masstone-spectral-data.zip",
+      "rel": "zips/P05-masstone-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18354,
+      "sha256": "cab501ae7079899d805d5a3761aac2686c1c5b1ef8ec706f83782b31cb309b27",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/P05-tint-1-to-4-spectral-data.zip",
+      "rel": "zips/P05-tint-1-to-4-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17565,
+      "sha256": "f5c90c340c262a52bcf0d650117127c58e06c3d3869ff31743ca5e797cb90610",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/P05-tint-1-to-9-spectral-data.zip",
+      "rel": "zips/P05-tint-1-to-9-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17814,
+      "sha256": "7815b8c0bfc1cc48047aff0841864b16c53204eda47de31f011ec658168e8350",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/B13+U14-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/B13+U14-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18116,
+      "sha256": "ab21079109f6bea6c60697e21c24ba2e8b3ab0763aac29d37d6bc5721ad52f20",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U14+B16-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/U14+B16-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17597,
+      "sha256": "bb44014a7faef9bce257a69b8c6258d0b94c696a944f47157d9eddcf679b5e88",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U14+Y01-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/U14+Y01-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18866,
+      "sha256": "b30c26b71f1094e4c65844c405c55f9ebd79b1c13f81fa851577205ff2cfa1ba",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U03+U12-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/U03+U12-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18760,
+      "sha256": "c354d41fef25a473fea5f2ca4771e7b9ef72d6ff129a3075f5a6178ab60c865d",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U12+R03-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/U12+R03-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18875,
+      "sha256": "2b9225cb98b78617ea1c2646ed7a7343d8bbdd6c93e7e0815644202731255316",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U12+G03-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/U12+G03-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18091,
+      "sha256": "63510eea2ea2c2515731937dcb7becea8b2972a72af7990fc8c56f5a445efff7",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/Y13+U12-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/Y13+U12-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18628,
+      "sha256": "be83e2d57186e9af2030c1f78beed3437f8d37dc701474eb2a1f175ae8cb31a2",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/P05+U12-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/P05+U12-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17805,
+      "sha256": "c43a2e1d76964ff7fdcf511330f1aacc1654b08ad6a0a1f3a8cadd3ae4b483b5",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U11+U03-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/U11+U03-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 19107,
+      "sha256": "e228108d11e471e19767ac7b0daef062c393aa4b501340135848d7f8d72a7146",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U11+G03-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/U11+G03-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18074,
+      "sha256": "ed1a3a4d5a95922b0b7196df138a3fc9663577fdfa663b8c4066edfaa80160db",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/U11+Y01-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/U11+Y01-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18857,
+      "sha256": "150f6a1d50230939cf0179f43ebb071e8908f4734affbcff49e6d1e3701b660c",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/G03+R09-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/G03+R09-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 18295,
+      "sha256": "35ffcbb4fee105a1e351cb06b41916b6feb17d657ac67e43297f0a500f56746b",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R09+U03-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/R09+U03-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 17801,
+      "sha256": "20a3456f6de9927a2148cb9c67ea425521b6258dae289f117b7ac4b3cb6c862b",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R09+R03-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/R09+R03-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 19289,
+      "sha256": "6253850c74728a27e6bdfbe86a60be2ac3e97f5cca98b4265c185fec6d33ee0f",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-data/R09+P05-mixture-1-to-1-spectral-data.zip",
+      "rel": "zips/R09+P05-mixture-1-to-1-spectral-data.zip",
+      "required": true,
+      "status": "cached",
+      "bytes": 16491,
+      "sha256": "2d83013770afbd73584acde0b781fab7b4ee228fe1dc6053d9c96bbf4909b61d",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/R07-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/R07-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 307475,
+      "sha256": "56ada5d1104aef0f38056b2c0b02617a97234ea19f687cfb4e7a49b1ff2d343d",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/R08-masstone-spectral-chart.pdf",
+      "rel": "charts/R08-masstone-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 77835,
+      "sha256": "5f9827d60e818cc190309c6c16dab2da0d7f6403c176a10cdd282a2a692b6bed",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U14-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/U14-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 305071,
+      "sha256": "91a1e4202d337af322cacb508b2ada95e5d4492358511a53d345919839ef8d25",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U12-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/U12-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 305239,
+      "sha256": "cfb08bc8052922c0992d8ca50547991c1a400e33f166f9b2fcd358c9f3f04da2",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/W03-masstone-spectral-chart.pdf",
+      "rel": "charts/W03-masstone-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 77517,
+      "sha256": "85cb029b51af1528a242348520de16b6a7f80050a49f7cbd2d0bb9225145bd59",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/R09-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/R09-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 305001,
+      "sha256": "2d4fe46eb498c10c1a2a284052410ac7973dc268a79166ac34548b5fa118919b",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U11-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/U11-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 307231,
+      "sha256": "14b1a1943beb7377a3a418171c3d5b829a6b81044696551e614800970dd5a3f8",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/R06-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/R06-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 306107,
+      "sha256": "2aae5b76898746c9b913a43a1a51375eafbf88e4fba887e1751e59c12dbbb01e",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U13-masstone-spectral-chart.pdf",
+      "rel": "charts/U13-masstone-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 75888,
+      "sha256": "d5d78647efecd5593fd36b2396daa749d8a93d04e8dc4166fe22320490ca1b92",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/W04-masstone-spectral-chart.pdf",
+      "rel": "charts/W04-masstone-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 77845,
+      "sha256": "3a70644306f9bbec813b28b95f1b0524d521eebd059f994eac6ccae4e7992cce",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/B13-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/B13-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 306910,
+      "sha256": "24183cf7b77ff6cfd48b56fd2e950c9c8a9f658c69da4ec55e0e534a102bfc07",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/B16-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/B16-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 307895,
+      "sha256": "ac171ecf1e1e5021f98b3e795f56822715fa4122fa6d254c32df4a5f8bf433b6",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/Y01-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/Y01-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 306999,
+      "sha256": "afecfa812461db7d722589b98d926adba62be2f9467b463553de480421af4e62",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U03-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/U03-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 307851,
+      "sha256": "3dc01eb37cabe290dfcfd19eee1adc324185dcbf12e8d0bb97499c4c62a9950e",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/R03-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/R03-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 308027,
+      "sha256": "39504bb3616dbd0aec4001151da39220cabe118af6c92823a72c3eb55634562e",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/G03-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/G03-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 307330,
+      "sha256": "01c0a464b7c8664aeb34af454d48d9c82e3b14c3cfc66b7b5adcc464c1a45fff",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/Y13-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/Y13-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 305443,
+      "sha256": "fa7c8517bc1a0c5c1288c05593264951a898d98d59dd32187f245a529a627014",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/P05-tint-ladder-spectral-chart.pdf",
+      "rel": "charts/P05-tint-ladder-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 307475,
+      "sha256": "d19b2d1630f98b87901c5502fb8822fd8df2eed3251facb5c354305fb51d7c22",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/B13+U14-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/B13+U14-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 230000,
+      "sha256": "cd9a5dfc5bd06d30170858736cc5416a6026bbded881455a94d13eb3508c050f",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U14+B16-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/U14+B16-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 229955,
+      "sha256": "773acd65c50831f638539529eae71728d3830f9614a83da8817cbd9f5bb380e1",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U14+Y01-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/U14+Y01-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 229811,
+      "sha256": "d05cbb4a82d45adc235e41665d3ed6e7e4a40d65b426faddf44b198177a812de",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U03+U12-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/U03+U12-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 229361,
+      "sha256": "fd7f3a725935face9896247a769b9eb9fb3f97688fc883c89fdbc7a29b469ccf",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U12+R03-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/U12+R03-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 229510,
+      "sha256": "d6ce98ffa869340b76cd1eccb963fa77e7ff5d90e3a4811517543fe61bda0e6e",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U12+G03-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/U12+G03-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 230082,
+      "sha256": "f15c7970759777f6ef13b60f440bb431e569d6dce3edd4b8b74f3b1d3a914706",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/Y13+U12-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/Y13+U12-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 229367,
+      "sha256": "58394f524c9bfe99e610852bb9a6e13b3801c7668ff9b6525fbfbd6d0f3f3fbe",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/P05+U12-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/P05+U12-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 229299,
+      "sha256": "32028d9b1000277de9508fd7067c9a521f073421343533ada56d2a0215be7369",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U11+U03-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/U11+U03-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 230555,
+      "sha256": "a6c15f00c9ddadbee5dabc325c270b36b5b7c719ec0777c7f5f4648e0ce3e1d8",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U11+G03-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/U11+G03-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 231582,
+      "sha256": "ec1143f15ce9b0a8f19977b8f6be27e27b2bae9657290559005cee80d852a5f3",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/U11+Y01-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/U11+Y01-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 231357,
+      "sha256": "06e9d21f479701cebfa2dcbd1954652eb73ec2fa798a2d292b58d5c581cbda8d",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/G03+R09-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/G03+R09-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 231354,
+      "sha256": "fb7978ac12ca2929d884a80e23c60be42936b81fe2baecc305ab6d4449acf003",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/R09+U03-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/R09+U03-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 229411,
+      "sha256": "ce48bdfce3205fa41e18f59a3724fe6697c24286f63970f397d1f1cd36fed5bc",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/R09+R03-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/R09+R03-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 229992,
+      "sha256": "e06a7ddf734312626ada07a762f29311d07b0f88181767137b658d79f3de0359",
+      "retrieved": "2026-08-09"
+    },
+    {
+      "url": "https://coolcolors.lbl.gov/LBNL-Pigment-Database/assets/spectral-charts/pdf/R09+P05-mixture-1-to-1-spectral-chart.pdf",
+      "rel": "charts/R09+P05-mixture-1-to-1-spectral-chart.pdf",
+      "required": true,
+      "status": "cached",
+      "bytes": 231191,
+      "sha256": "31f7f83dd546276507048bac9a538221a2cf56a34abc9cfb7a06fea46dac30c8",
+      "retrieved": "2026-08-09"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Limelight", "Arial Black", ui-sans-serif, sans-serif;
+}
+
+/* Custom slider styling */
+.slider {
+  background: #e5e5e5;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: currentColor;
+  border: 2.5px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: currentColor;
+  border: 2.5px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+/* Use accent-color for the thumb color via inline style */
+.slider::-webkit-slider-thumb {
+  background: var(--slider-color, #666);
+}
+.slider::-moz-range-thumb {
+  background: var(--slider-color, #666);
+}
+
+/* Hide scrollbars (pan/scroll containers) */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Native color input cleanup */
+input[type="color"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}

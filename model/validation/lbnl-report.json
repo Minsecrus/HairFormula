@@ -1,0 +1,634 @@
+{
+  "report": "lbnl-external-validation",
+  "generated_at": "2026-08-10T01:57:01.132Z",
+  "master_plan_refs": [
+    "§17 Step 4",
+    "§24 acceptance",
+    "§8 metrics"
+  ],
+  "dataset": {
+    "path": "model/datasets/processed/pigments.json",
+    "source": "LBNL Pigment Database",
+    "retrieved": "2026-08-09",
+    "white_reference": "W03-masstone"
+  },
+  "method": {
+    "grid": "380–750 nm @ 10 nm (38 points); linear resample from the LBNL 300–2500 nm @ 5 nm grid",
+    "fit": "two-constant K(λ), S(λ) per pigment from its own masstone + 1:4 + 1:9 white tints (white scale S_w = 1, K_w = q_w from the white masstone); per-wavelength least squares in reflectance, coarse grid + Nelder–Mead in (ln K, ln S)",
+    "prediction": "two-constant mixKubelkaMunk at 1:1 (c = 0.5/0.5); comparison: single-constant mixKoverS on masstone K/S ratios",
+    "metrics": "spectral RMSE/MAE over the 38-point grid; ΔE00 via D65 / CIE 1931 2° (spectrum → XYZ → Lab → CIEDE2000)",
+    "held_out": "mixture samples are never used during fitting; each partner's fingerprint comes from its own tint ladder only"
+  },
+  "pigment_fits": [
+    {
+      "pigment_id": "PV23",
+      "name": "Dioxazine Purple",
+      "ladder_rmse": 0.006088
+    },
+    {
+      "pigment_id": "PBr7",
+      "name": "Burnt Sienna",
+      "ladder_rmse": 0.007194
+    },
+    {
+      "pigment_id": "PBk12",
+      "name": "Iron Titanium Brown Spinel (i)",
+      "ladder_rmse": 0.003312
+    },
+    {
+      "pigment_id": "PY42",
+      "name": "Yellow Oxide",
+      "ladder_rmse": 0.004099
+    },
+    {
+      "pigment_id": "PB15",
+      "name": "Phthalo Blue (i)",
+      "ladder_rmse": 0.005421
+    },
+    {
+      "pigment_id": "PB28",
+      "name": "Cobalt Aluminate Blue Spinel (iii)",
+      "ladder_rmse": 0.00509
+    },
+    {
+      "pigment_id": "PR101",
+      "name": "Red Iron Oxide (iii)",
+      "ladder_rmse": 0.004587
+    },
+    {
+      "pigment_id": "G03",
+      "name": "Chromium Green-Black Modified",
+      "ladder_rmse": 0.003089
+    },
+    {
+      "pigment_id": "PY74",
+      "name": "Yellow Medium Azo",
+      "ladder_rmse": 0.008983
+    },
+    {
+      "pigment_id": "P05",
+      "name": "Interference Green (pearlescent)",
+      "ladder_rmse": 0.009526
+    },
+    {
+      "pigment_id": "PR9",
+      "name": "Naphthol Red Light",
+      "ladder_rmse": 0.007024
+    },
+    {
+      "pigment_id": "PB29",
+      "name": "French Ultramarine Blue",
+      "ladder_rmse": 0.004225
+    }
+  ],
+  "mixtures": [
+    {
+      "sample_id": "B13+U14-mixture-1-to-1",
+      "pigment_a": "PV23",
+      "pigment_b": "PBr7",
+      "two_constant": {
+        "rmse": 0.005119,
+        "mae": 0.004045,
+        "deltaE00": 2.2485,
+        "lab_predicted": [
+          26.972,
+          5.698,
+          0.679
+        ],
+        "lab_measured": [
+          26.269,
+          3.798,
+          0.22
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.032267,
+        "mae": 0.018359,
+        "deltaE00": 4.5834,
+        "lab_predicted": [
+          28.045,
+          7.598,
+          2.234
+        ],
+        "lab_measured": [
+          26.269,
+          3.798,
+          0.22
+        ]
+      }
+    },
+    {
+      "sample_id": "U14+B16-mixture-1-to-1",
+      "pigment_a": "PV23",
+      "pigment_b": "PBk12",
+      "two_constant": {
+        "rmse": 0.037523,
+        "mae": 0.020347,
+        "deltaE00": 1.7838,
+        "lab_predicted": [
+          26.892,
+          4.768,
+          -4.799
+        ],
+        "lab_measured": [
+          26.448,
+          6.312,
+          -4.521
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.060769,
+        "mae": 0.036376,
+        "deltaE00": 8.9641,
+        "lab_predicted": [
+          32.283,
+          3.42,
+          3.659
+        ],
+        "lab_measured": [
+          26.448,
+          6.312,
+          -4.521
+        ]
+      }
+    },
+    {
+      "sample_id": "U14+Y01-mixture-1-to-1",
+      "pigment_a": "PV23",
+      "pigment_b": "PY42",
+      "two_constant": {
+        "rmse": 0.039486,
+        "mae": 0.022713,
+        "deltaE00": 3.8456,
+        "lab_predicted": [
+          30.297,
+          4.246,
+          -4.958
+        ],
+        "lab_measured": [
+          31.273,
+          7.492,
+          -3.814
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.090147,
+        "mae": 0.048979,
+        "deltaE00": 7.7706,
+        "lab_predicted": [
+          32.595,
+          3.169,
+          3.199
+        ],
+        "lab_measured": [
+          31.273,
+          7.492,
+          -3.814
+        ]
+      }
+    },
+    {
+      "sample_id": "U03+U12-mixture-1-to-1",
+      "pigment_a": "PB15",
+      "pigment_b": "PB28",
+      "two_constant": {
+        "rmse": 0.0087,
+        "mae": 0.007246,
+        "deltaE00": 0.9158,
+        "lab_predicted": [
+          28.269,
+          7.293,
+          -28.439
+        ],
+        "lab_measured": [
+          27.353,
+          7.284,
+          -27.42
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.023664,
+        "mae": 0.018843,
+        "deltaE00": 3.5354,
+        "lab_predicted": [
+          31.025,
+          3.639,
+          -23.871
+        ],
+        "lab_measured": [
+          27.353,
+          7.284,
+          -27.42
+        ]
+      }
+    },
+    {
+      "sample_id": "U12+R03-mixture-1-to-1",
+      "pigment_a": "PB15",
+      "pigment_b": "PR101",
+      "two_constant": {
+        "rmse": 0.003773,
+        "mae": 0.003175,
+        "deltaE00": 1.4764,
+        "lab_predicted": [
+          25.875,
+          1.014,
+          -4.303
+        ],
+        "lab_measured": [
+          25.463,
+          0.016,
+          -4.132
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.024032,
+        "mae": 0.018314,
+        "deltaE00": 10.7527,
+        "lab_predicted": [
+          27.717,
+          8.753,
+          -4.523
+        ],
+        "lab_measured": [
+          25.463,
+          0.016,
+          -4.132
+        ]
+      }
+    },
+    {
+      "sample_id": "U12+G03-mixture-1-to-1",
+      "pigment_a": "PB15",
+      "pigment_b": "G03",
+      "two_constant": {
+        "rmse": 0.004914,
+        "mae": 0.004269,
+        "deltaE00": 1.3131,
+        "lab_predicted": [
+          25.32,
+          3.495,
+          -12.994
+        ],
+        "lab_measured": [
+          24.865,
+          2.489,
+          -12.029
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.01691,
+        "mae": 0.0123,
+        "deltaE00": 4.2322,
+        "lab_predicted": [
+          27.12,
+          1.008,
+          -6.885
+        ],
+        "lab_measured": [
+          24.865,
+          2.489,
+          -12.029
+        ]
+      }
+    },
+    {
+      "sample_id": "Y13+U12-mixture-1-to-1",
+      "pigment_a": "PB15",
+      "pigment_b": "PY74",
+      "two_constant": {
+        "rmse": 0.008672,
+        "mae": 0.006814,
+        "deltaE00": 5.8769,
+        "lab_predicted": [
+          27.088,
+          -9.856,
+          -3
+        ],
+        "lab_measured": [
+          28.96,
+          -15.389,
+          1.363
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.025788,
+        "mae": 0.021669,
+        "deltaE00": 12.3707,
+        "lab_predicted": [
+          31.299,
+          -2.294,
+          0.663
+        ],
+        "lab_measured": [
+          28.96,
+          -15.389,
+          1.363
+        ]
+      }
+    },
+    {
+      "sample_id": "P05+U12-mixture-1-to-1",
+      "pigment_a": "PB15",
+      "pigment_b": "P05",
+      "two_constant": {
+        "rmse": 0.072425,
+        "mae": 0.04702,
+        "deltaE00": 22.4589,
+        "lab_predicted": [
+          25.484,
+          10.974,
+          -25.47
+        ],
+        "lab_measured": [
+          37.911,
+          -13.579,
+          -26.207
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.055944,
+        "mae": 0.045078,
+        "deltaE00": 20.1838,
+        "lab_predicted": [
+          33.214,
+          8.697,
+          -22.597
+        ],
+        "lab_measured": [
+          37.911,
+          -13.579,
+          -26.207
+        ]
+      }
+    },
+    {
+      "sample_id": "G03+R09-mixture-1-to-1",
+      "pigment_a": "PR9",
+      "pigment_b": "G03",
+      "two_constant": {
+        "rmse": 0.074456,
+        "mae": 0.048818,
+        "deltaE00": 7.3681,
+        "lab_predicted": [
+          34.501,
+          16.163,
+          16.649
+        ],
+        "lab_measured": [
+          36.855,
+          29.809,
+          22
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.060687,
+        "mae": 0.044563,
+        "deltaE00": 11.561,
+        "lab_predicted": [
+          32.815,
+          10.369,
+          12.346
+        ],
+        "lab_measured": [
+          36.855,
+          29.809,
+          22
+        ]
+      }
+    },
+    {
+      "sample_id": "R09+U03-mixture-1-to-1",
+      "pigment_a": "PR9",
+      "pigment_b": "PB28",
+      "two_constant": {
+        "rmse": 0.043792,
+        "mae": 0.029085,
+        "deltaE00": 6.2145,
+        "lab_predicted": [
+          34.515,
+          13.813,
+          14.143
+        ],
+        "lab_measured": [
+          35.476,
+          23.853,
+          16.624
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.043321,
+        "mae": 0.0384,
+        "deltaE00": 13.2522,
+        "lab_predicted": [
+          36.416,
+          5.546,
+          7.123
+        ],
+        "lab_measured": [
+          35.476,
+          23.853,
+          16.624
+        ]
+      }
+    },
+    {
+      "sample_id": "R09+R03-mixture-1-to-1",
+      "pigment_a": "PR9",
+      "pigment_b": "PR101",
+      "two_constant": {
+        "rmse": 0.038525,
+        "mae": 0.025379,
+        "deltaE00": 2.299,
+        "lab_predicted": [
+          40.868,
+          36.55,
+          26.803
+        ],
+        "lab_measured": [
+          41.943,
+          42.257,
+          29.672
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.034953,
+        "mae": 0.022869,
+        "deltaE00": 1.4313,
+        "lab_predicted": [
+          41.556,
+          38.476,
+          28.305
+        ],
+        "lab_measured": [
+          41.943,
+          42.257,
+          29.672
+        ]
+      }
+    },
+    {
+      "sample_id": "R09+P05-mixture-1-to-1",
+      "pigment_a": "PR9",
+      "pigment_b": "P05",
+      "two_constant": {
+        "rmse": 0.057228,
+        "mae": 0.044037,
+        "deltaE00": 3.3469,
+        "lab_predicted": [
+          43.697,
+          45.212,
+          31.808
+        ],
+        "lab_measured": [
+          47.126,
+          47.409,
+          32.983
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.039749,
+        "mae": 0.035583,
+        "deltaE00": 3.8501,
+        "lab_predicted": [
+          50.004,
+          39.874,
+          29.499
+        ],
+        "lab_measured": [
+          47.126,
+          47.409,
+          32.983
+        ]
+      }
+    },
+    {
+      "sample_id": "U11+U03-mixture-1-to-1",
+      "pigment_a": "PB29",
+      "pigment_b": "PB28",
+      "two_constant": {
+        "rmse": 0.024089,
+        "mae": 0.014165,
+        "deltaE00": 3.4359,
+        "lab_predicted": [
+          27.99,
+          20.65,
+          -42.769
+        ],
+        "lab_measured": [
+          27.341,
+          15.083,
+          -33.379
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.010019,
+        "mae": 0.007916,
+        "deltaE00": 1.2545,
+        "lab_predicted": [
+          27.389,
+          13.29,
+          -30.285
+        ],
+        "lab_measured": [
+          27.341,
+          15.083,
+          -33.379
+        ]
+      }
+    },
+    {
+      "sample_id": "U11+G03-mixture-1-to-1",
+      "pigment_a": "PB29",
+      "pigment_b": "G03",
+      "two_constant": {
+        "rmse": 0.008002,
+        "mae": 0.007221,
+        "deltaE00": 5.2847,
+        "lab_predicted": [
+          23.213,
+          3.435,
+          -11.343
+        ],
+        "lab_measured": [
+          25.477,
+          0.462,
+          -6.208
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.011774,
+        "mae": 0.008297,
+        "deltaE00": 5.8911,
+        "lab_predicted": [
+          24.524,
+          4.44,
+          -11.202
+        ],
+        "lab_measured": [
+          25.477,
+          0.462,
+          -6.208
+        ]
+      }
+    },
+    {
+      "sample_id": "U11+Y01-mixture-1-to-1",
+      "pigment_a": "PB29",
+      "pigment_b": "PY42",
+      "two_constant": {
+        "rmse": 0.033715,
+        "mae": 0.022229,
+        "deltaE00": 5.8934,
+        "lab_predicted": [
+          35.789,
+          -10.562,
+          0.959
+        ],
+        "lab_measured": [
+          36.805,
+          -6.1,
+          5.321
+        ]
+      },
+      "single_constant": {
+        "rmse": 0.061805,
+        "mae": 0.048372,
+        "deltaE00": 21.459,
+        "lab_predicted": [
+          27.7,
+          7.187,
+          -13.216
+        ],
+        "lab_measured": [
+          36.805,
+          -6.1,
+          5.321
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "n_mixtures": 15,
+    "two_constant": {
+      "median_deltaE00": 3.4359,
+      "median_rmse": 0.033715,
+      "median_mae": 0.020347,
+      "max_deltaE00": 22.4589,
+      "max_deltaE00_sample": "P05+U12-mixture-1-to-1"
+    },
+    "single_constant": {
+      "median_deltaE00": 7.7706,
+      "median_rmse": 0.034953,
+      "median_mae": 0.022869,
+      "max_deltaE00": 21.459,
+      "max_deltaE00_sample": "U11+Y01-mixture-1-to-1"
+    },
+    "acceptance": {
+      "metric": "median two-constant ΔE00",
+      "threshold": 5,
+      "value": 3.4359,
+      "pass": true
+    }
+  }
+}
